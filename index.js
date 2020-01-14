@@ -1,42 +1,41 @@
 
 /**
  * https://github.com/kangax/html-minifier/issues/63#issuecomment-18634279
+ * https://gist.github.com/ArjanSchouten/0b8574a6ad7f5065a5e7
  */
 
-var attrs = [
+var attrs = [ 
   "allowfullscreen",
   "async",
   "autofocus",
+  "autoplay",
   "checked",
-  "compact",
+  "contenteditable",
+  "controls",
   "declare",
   "default",
   "defer",
   "disabled",
   "formnovalidate",
+  "frameborder",
   "hidden",
   "inert",
   "ismap",
   "itemscope",
-  "multiple",
+  "loop",
   "multiple",
   "muted",
-  "nohref",
-  "noresize",
-  "noshade",
+  "nomodule",
   "novalidate",
   "nowrap",
   "open",
   "readonly",
   "required",
   "reversed",
-  "seamless",
+  "scoped",
   "selected",
-  "sortable",
   "truespeed",
   "typemustmatch",
-  "contenteditable",
-  "spellcheck"
 ];
 
 module.exports = function(attr){
